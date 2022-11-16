@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "client": "npm start --prefix client",
+    "client": "npm start --prefix frontEnd",
     "dev": "concurrently \"npm run start\" \"npm run client\""
   },
   "keywords": [],
